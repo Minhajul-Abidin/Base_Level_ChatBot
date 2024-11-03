@@ -112,7 +112,8 @@ The chatbot is accessible through a simple web interface created with HTML and C
 ![Chatbot Interface](static\images\chatbot-interface.png)
 =======
 ![Chatbot Interface](static/images/chatbot-interface.png)
->>>>>>> 2d36c18d74028f62dae357a588d33144d906ebfe
+
+> > > > > > > 2d36c18d74028f62dae357a588d33144d906ebfe
 
 _Example of the chatbot interface showing a conversation with customer queries._
 
