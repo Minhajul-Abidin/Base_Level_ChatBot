@@ -108,7 +108,7 @@ The machine learning model is built using PyTorch and uses a neural network (`Ne
 
 The chatbot is accessible through a simple web interface created with HTML and CSS. The frontend is powered by Flask and allows users to type queries directly and view responses in real-time.
 
-![Chatbot Interface](..\static\images\chatbot-interface.png)
+![Chatbot Interface](static/images/chatbot-interface.png)
 
 _Example of the chatbot interface showing a conversation with customer queries._
 
