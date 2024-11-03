@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Good day", "Hey", "Howdy"],
+      "responses": [
+        "Hello! How can I assist you with your shopping today?",
+        "Hi there! How can I help you with your order?",
+        "Greetings! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye", "Take care"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! If you need any further assistance, feel free to ask.",
+        "Take care! Hope to see you again soon!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status",
+        "Order tracking"
+      ],
+      "responses": [
+        "Please provide your order ID to track your order.",
+        "You can track your order using the tracking number sent to your email.",
+        "Let me check the status of your order. Can you provide the order ID?"
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How can I return a product?",
+        "Return policy",
+        "Product return"
+      ],
+      "responses": [
+        "You can return any product within 30 days of purchase.",
+        "Our return policy allows returns within 30 days. Please visit our returns page for more details.",
+        "To return a product, please follow the instructions on our returns page."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Payment options",
+        "How can I pay?",
+        "Accepted payment methods"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, and PayPal.",
+        "You can pay using Visa, MasterCard, American Express, or PayPal.",
+        "Our accepted payment methods include credit/debit cards and PayPal."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are your shipping options?",
+        "Shipping information",
+        "Delivery options",
+        "Shipping methods"
+      ],
+      "responses": [
+        "We offer standard and express shipping options.",
+        "You can choose between standard and express shipping at checkout.",
+        "Our shipping options include standard and express delivery."
+      ]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "Is this product available?",
+        "Product availability",
+        "In stock",
+        "Out of stock"
+      ],
+      "responses": [
+        "Let me check the availability of the product for you.",
+        "This product is currently in stock.",
+        "Unfortunately, this product is out of stock at the moment."
+      ]
+    },
+    {
+      "tag": "product_details",
+      "patterns": [
+        "Tell me about this product",
+        "Product details",
+        "Product information",
+        "More about this product"
+      ],
+      "responses": [
+        "Here are the details of the product: [Product Details]",
+        "This product has the following features: [Product Features]",
+        "You can find more information about this product on its page."
+      ]
+    },
+    {
+      "tag": "product_comparison",
+      "patterns": [
+        "Compare products",
+        "Product comparison",
+        "Which product is better?",
+        "Compare this with another product"
+      ],
+      "responses": [
+        "Here is a comparison of the products: [Comparison Details]",
+        "You can compare the features of these products: [Comparison Features]",
+        "Let me help you compare these products."
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your store hours?",
+        "Store hours",
+        "Opening hours",
+        "When are you open?"
+      ],
+      "responses": [
+        "Our store is open from 9 AM to 9 PM from Monday to Saturday.",
+        "We are open from 9 AM to 9 PM on weekdays and Saturdays.",
+        "Our opening hours are 9 AM to 9 PM, Monday through Saturday."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "Contact information",
+        "Customer service contact",
+        "Support contact"
+      ],
+      "responses": [
+        "You can contact us at support@example.com or call us at (123) 456-7890.",
+        "For any inquiries, please email support@example.com or call (123) 456-7890.",
+        "Our customer service can be reached at support@example.com or (123) 456-7890."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Refund policy",
+        "How can I get a refund?",
+        "Refund process"
+      ],
+      "responses": [
+        "Our refund policy allows refunds within 30 days of purchase.",
+        "You can request a refund within 30 days of your purchase date.",
+        "Please visit our refund policy page for more details on how to get a refund."
+      ]
+    },
+    {
+      "tag": "store_location",
+      "patterns": [
+        "Where is your store located?",
+        "Store location",
+        "Address of your store",
+        "Store address"
+      ],
+      "responses": [
+        "Our store is located at 123 Main Street, Anytown, USA.",
+        "You can find us at 123 Main Street, Anytown, USA.",
+        "We are located at 123 Main Street, Anytown, USA."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you have any discounts?",
+        "Current discounts",
+        "Available discounts",
+        "Discount offers"
+      ],
+      "responses": [
+        "We currently have a 10% discount on all electronics.",
+        "Check out our discounts page for the latest offers.",
+        "We offer various discounts throughout the year. Please visit our discounts page for more information."
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "Do you have a membership program?",
+        "Membership benefits",
+        "Join membership",
+        "Membership details"
+      ],
+      "responses": [
+        "Yes, we have a membership program that offers exclusive discounts and benefits.",
+        "Our membership program includes special offers and early access to sales.",
+        "You can join our membership program on our website for exclusive benefits."
+      ]
+    }
+  ]
+}
