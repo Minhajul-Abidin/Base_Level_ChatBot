@@ -65,3 +65,67 @@ The machine learning model is built using PyTorch and uses a neural network (`Ne
    git clone https://github.com/your-username/ecommerce-chatbot.git
    cd ecommerce-chatbot
    ```
+
+   Here's the specified section of the README file converted to Markdown (.md) code:
+
+````markdown
+### Installation
+
+2. **Install dependencies**:
+
+   Make sure Python is installed, then install the required libraries:
+
+   ```bash
+   pip install numpy nltk torch flask
+   ```
+````
+
+3. **Download nltk resources**:
+
+   Run the following commands in Python to download necessary nltk data:
+
+   ```python
+   import nltk
+   nltk.download('punkt')
+   ```
+
+4. **Run the application**:
+
+   ```bash
+   python app.py
+   ```
+
+5. **Access the app**: Open your browser and go to `http://localhost:5000` to interact with the chatbot.
+
+## Usage
+
+1. **Run the server** using `python app.py`.
+2. **Visit** `http://localhost:5000` in your browser.
+3. Enter customer queries like “What is the price of Product X?” or “Where is my order?”
+4. The chatbot will respond based on trained intents, providing relevant information or redirecting to customer support if necessary.
+
+## Frontend Interface
+
+The chatbot is accessible through a simple web interface created with HTML and CSS. The frontend is powered by Flask and allows users to type queries directly and view responses in real-time.
+
+![Chatbot Interface](chatbot-interface.png)
+
+_Example of the chatbot interface showing a conversation with customer queries._
+
+## Contributing
+
+1. **Fork the repository**.
+2. **Create a new branch** for your feature (`git checkout -b feature/AmazingFeature`).
+3. **Commit your changes** (`git commit -m 'Add AmazingFeature'`).
+4. **Push to the branch** (`git push origin feature/AmazingFeature`).
+5. **Open a Pull Request**.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Project Maintainers:
+
+- **Minhajul Abidin** - [GitHub Profile](https://github.com/Minhajul-Abidin)
